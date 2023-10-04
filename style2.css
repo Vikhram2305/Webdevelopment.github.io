@@ -1,0 +1,139 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    front-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: white;
+    color: red;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:blue;
+    display: flex;
+    justify-content:space-between ;
+    align-self: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 22px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color:red;
+}
+
+.home{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    background-color : white ;
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: red;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    width: 180px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 10px 0 20px;
+    color: red;
+    background: blue;
+}
+
+.home-content p1 {
+    font-size: 20px;
+    margin: 15px 0 40px;
+    line-height: 1.2;
+}
+
+.home-content h5{
+    font-size: 27px;
+    font-weight: 700;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 40px 0 10px;
+    color: white;
+    background: blue;
+}
+
+.home-content p2 {
+    font-size: 20px;
+    margin: 15px 0 40px;
+    line-height: 1.2;
+}
+
+
+.home-content h7{
+    font-size: 27px;
+    font-weight: 700;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 80px 0 10px;
+    color: white;
+    background: blue;
+}
+
+.home-content p3 {
+    font-size: 20px;
+    margin: 15px 0 40px;
+    line-height: 1.2;
+}
+
+.home-content h9{
+    font-size: 27px;
+    font-weight: 700;
+    width: 80px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 40px 0 20px;
+    color: white;
+    background: blue;
+}
+
+.home-content p4 {
+    font-size: 20px;
+    margin: 15px 0 40px;
+    line-height: 1.2;
+}
+
